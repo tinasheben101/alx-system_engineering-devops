@@ -1,0 +1,7 @@
+#!/bin/bash
+my_first_directory=$(mktemp -d -t ci-XXXXXXXXXX)
+echo $my_first_directory
+ 
+# ...
+ 
+rm -rf $my_first_directory
